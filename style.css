@@ -5,12 +5,23 @@ body{
 h1{
     font-family: 'Architects Daughter', cursive;
     text-align: center;
-    color: lightslategray;
     font-size: 60px;
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 h2{
     font-family: 'Architects Daughter', cursive;
     text-align: center;
-    color: lightslategray;
-    font-size: 40px;
+    font-size: 30px;
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    margin-top: -60px;
 }
