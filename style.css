@@ -1,27 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-body{
-    background-color: black;
+.fondo{
+    background-image: url(img/backgroundSW.jpg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    position: static;
+    z-index: -1;
 }
-.tituloMain{
+
+.titulos{
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
+    position: relative;
+    background: #666666;
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    z-index: 1;
+}
+
+#tituloMain{
     font-size: 60px;
-    color: transparent;
-    background: #666666;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+   
 }
-.tituloSub{
-    font-family: 'Fredericka the Great', cursive;
-    text-align: center;
+
+#tituloSub{
     font-size: 30px;
-    color: transparent;
-    background: #666666;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
     margin-top: -50px;
+}
+
+.fondo:before {
+	content:'';
+	position: fixed;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
 }
