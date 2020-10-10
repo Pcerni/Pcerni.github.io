@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-.fondo{
-    background-image: url(img/backgroundSW.jpg);
-    background-position: 50% 30%;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: -1;
+.header{
+    background: url(img/backgroundSW.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
 }
 
-.titulos{
+/* .titulos{
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
     position: relative;
@@ -26,9 +24,9 @@
     color: #FFFFFF;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     font-size: 30px;
-}
+} */
 
-.fondo:before {
+.header:before {
 	content:'';
 	position: fixed;
     top: 0;
@@ -36,17 +34,7 @@
 	left: 0;
 	right: 0;
     background-color: rgba(0,0,0,0.6);
-    z-index: -1;
 }
-
-.carousel-inner img {
-    width: 100%;
-}
-
-.carousel-inner{
-    display: block;
-    width: 300px;
-    height: 500px;
-    margin-left: 500px;
-    margin-top: 50px;
-}
+.header .navbar {
+    background-color: rgba(53, 0, 0, 0.555) !important;
+  }
