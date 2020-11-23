@@ -1,27 +1,37 @@
-ul, li{
+ul,
+li {
     list-style: none;
+    /* le quita los puntos a las listas*/
 }
+
 body {
-    background-image: url("../img/bgwolf.jpg"); /* ../ para retroceder una carpeta */
+    background-image: url("../img/bgwolf.jpg");
+    /* ../ para retroceder una carpeta */
+    background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.titulo-index{
+
+.titulo-index {
     text-align: center;
 }
 
 .bg-dark {
     background-color: #31313183 !important;
+    /* !important le da prioridad por sobre otras reglas*/
 }
-.nav-item .dropdown-menu{
+
+.nav-item .dropdown-menu {
     background-color: #31313183;
     display: none;
 }
-.nav-item:hover .dropdown-menu { 
-    display: block; 
+
+.nav-item:hover .dropdown-menu {
+    /*esto hace que no se sobreponga un menú sobre el otro*/
+    display: block;
 }
 
-.dropdown-item {  
+.dropdown-item {
     color: #a5a5a5;
 }
 
@@ -37,7 +47,11 @@ body {
     margin: auto;
 }
 
-.wrapper{
+#seccion-3 {
+    background-color: #ff000040;
+}
+
+.wrapper {
     text-align: center;
     background-color: #31313183;
     border: #000000 2px dashed;
@@ -47,11 +61,38 @@ body {
     width: 300px;
     height: 115px;
 }
-p{
+
+p {
+    font-size: 14px;
     color: #a5a5a5;
 }
 
-.footer{
+h6 {
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+.parrafo-1 {
+    font-size: 10px;
+}
+
+.parrafo-2 {
+    font-size: 11px;
+}
+
+.parrafo-3 {
+    font-size: 12px;
+}
+
+.parrafo-4 {
+    font-size: 13px;
+}
+
+.parrafo-5 {
+    font-size: 14px;
+}
+
+.footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -61,13 +102,3 @@ p{
     color: #a5a5a5;
     text-align: center;
 }
-.footer-img{
-    width: 28px;
-    height: 26px;
-    float: right;
-    margin-top: -22px;
-    padding: 2px;
-   
-}
-
-
