@@ -1,8 +1,8 @@
-# Pcerni.github.io
+# Página web
 
 Testeo y creación de páginas web
 
-****EN PROCESO****
+![Static Badge](https://img.shields.io/badge/En_proceso-de_construcci%C3%B3n-green)
 
 
 Creación de página web de hermandad de world of warcraft en la que juego. 
